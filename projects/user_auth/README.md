@@ -26,5 +26,4 @@ This is a **learning exercise**. In real-world production systems:
 2. Clone this repository.
 3. Run the script:
 ```bash
-   python login_system.py
-   
+
