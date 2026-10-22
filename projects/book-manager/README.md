@@ -1,68 +1,47 @@
-# Book Manager
+# Book Manager 📚
 
-A command-line application built with Python to manage a collection of books using Object-Oriented Programming (OOP).
+A simple command-line application built with Python to manage a collection of books using Object-Oriented Programming (OOP).
 
 ## Features
 
-- **Add Books:** Add new books with a title and subject.
-- **Remove Books:** Remove books by selecting their numbers.
-- **Edit Books:** Update the title and subject of existing books.
+- **Add Books:** Add a new book with a title and subject.
+- **Remove Books:** Remove a book by selecting its number.
+- **Edit Books:** Update a book's title and subject.
 - **List Books:** Display all books in the collection.
-- **Input Validation:** Handle invalid menu choices and non-numeric input.
+- **Search Books:** Find books by title, regardless of uppercase or lowercase letters.
+- **Input Validation:** Handle invalid menu choices and book numbers.
 
-## Technologies
+## Concepts Practiced
 
-- Python 3
-- Object-Oriented Programming (OOP)
 - Classes and Objects
+- Constructors (`__init__`)
+- String Representation (`__str__`)
 - Lists and Loops
 - Conditional Statements
 - Exception Handling (`try/except`)
+- User Input Validation
+
+## Requirements
+
+- Python 3
 
 ## How to Run
 
-**Requirements:** Python 3 installed on your computer.
-
-1. Clone this repository or download the project files.
-2. Open a terminal in the `book-manager` directory.
-3. Run the following command:
+1. Make sure Python 3 is installed on your computer.
+2. Download or clone this repository.
+3. Open a terminal in the project directory.
+4. Run the following command:
 
 ```bash
-python Book-Manager.py
+python book_manager.py
 ```
 
-## Example
 
-```text
-0. Stop | 1. Add | 2. Remove | 3. Edit | 4. List
-Enter your choice: 1
+## Limitations
 
-Enter book title: Python Basics
-Enter book subject: Programming
-
-Book added successfully!
-```
-
-## What I Learned
-
-Through this project, I practiced:
-
-- Creating classes and objects.
-- Working with object attributes and methods.
-- Managing objects inside a list.
-- Building an interactive command-line application.
-- Handling invalid user input.
-- Using loops and conditional statements to control program flow.
-
-## Future Improvements
-
-- Add a search feature to find books by title.
-- Save and load books using file handling.
-- Refactor repeated code into reusable functions.
-- Add automated tests.
+- Books are stored in memory and are not saved after the program closes.
+- The application runs in the command line.
 
 ## Author
 
-**Erfan Mirzaii**
-
-This project is part of my journey to improve my Python programming skills and problem-solving abilities.
+Erfan Mirzaii
