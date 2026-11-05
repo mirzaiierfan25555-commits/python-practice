@@ -1,28 +1,18 @@
 # Student Scores Analyzer
 
-A simple Python project that uses **NumPy** to analyze students' exam scores.
+A simple Python project that uses NumPy to analyze students' exam scores.
 
 ## Features
 
 - Stores student scores in a 2D NumPy array.
-- Calculates the overall average score.
 - Calculates the average score for each student.
-- Displays student names alongside their average scores.
+- Displays student names and their average scores.
 - Formats average scores to two decimal places.
 
 ## Technologies
 
 - Python
 - NumPy
-
-## Project Structure
-
-```text
-student_scores_analyzer/
-│
-├── student_scores.py
-└── README.md
-```
 
 ## Installation
 
@@ -34,28 +24,20 @@ pip install numpy
 
 ## How to Run
 
-Run the following command:
-
 ```bash
 python student_scores.py
 ```
 
-## Learning Goals
+## What I Learned
 
-This project was created to practice:
-
-- NumPy arrays
-- Array dimensions and shapes
-- Array indexing and slicing
-- Calculating averages
-- Python loops
-- The `zip()` function
-- Formatted output
+- Creating NumPy arrays
+- Working with 2D arrays
+- Understanding array dimensions and shapes
+- Calculating averages using `mean()`
+- Using `axis` in NumPy
+- Working with Python's `zip()` function
+- Formatting output using f-strings
 
 ## Author
 
-Erfan Mirzai
-
----
-
-*This project is part of my journey in learning Python, NumPy, and Data Science.*
+Erfan Mirzaii
